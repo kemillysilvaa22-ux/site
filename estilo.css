@@ -1,1 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#fff;
+}
+
+/* MENU */
+
+header{
+    background:#7a1e06;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+}
+
+.menu{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+}
+
+.menu h2{
+    color:white;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* BANNER */
+
+.banner{
+    background:#f8eddc;
+    max-width:1000px;
+    margin:80px auto 0;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.texto{
+    width:50%;
+}
+
+.etiqueta{
+    background:#f2d8a6;
+    padding:5px 10px;
+    border-radius:15px;
+}
+
+.texto h1{
+    color:#7a1e06;
+    margin:20px 0;
+}
+
+.texto p{
+    margin-bottom:20px;
+}
+
+button{
+    background:#e64a19;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.imagem img{
+    width:320px;
+    border-radius:10px;
+    border:3px solid #f2d8a6;
+}
+
+/* SERVIÇOS */
+
+.servicos{
+    max-width:1000px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.servicos h2{
+    color:#7a1e06;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+    background:#fff7ea;
+    border:1px solid #e5c89b;
+    padding:20px;
+    border-radius:10px;
+    text-align:left;
+}
+
+.card h3{
+    color:#7a1e06;
+    margin-bottom:10px;
+}
+
+/* AGENDAMENTO */
+
+.agendamento{
+    max-width:1000px;
+    margin:auto;
+    background:#f9d99b;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+}
+
+.info{
+    width:40%;
+}
+
+.info h2{
+    color:#7a1e06;
+    margin-bottom:15px;
+}
+
+form{
+    width:45%;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+form label{
+    display:block;
+    margin-top:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:80px;
+    resize:none;
+}
+
+footer{
+    background:#7a1e06;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
