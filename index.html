@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Feliz</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
 
+<header>
+    <div class="container menu">
+        <h2>Pet Feliz</h2>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
+</header>
+
+<section id="inicio" class="banner">
+    <div class="texto">
+        <span class="etiqueta">Clínica para pets</span>
+        <h1>Cuidado, carinho e atenção para seu melhor amigo</h1>
+        <p>
+            A Pet Feliz é uma clínica fictícia criada para praticar HTML e CSS.
+            Aqui você encontra serviços básicos para seu pet.
+        </p>
+        <button>Conhecer serviços</button>
+    </div>
+
+    <div class="imagem">
+        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500" alt="Pet">
+    </div>
+</section>
+
+<section id="servicos" class="servicos">
+    <h2>Nossos serviços</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Consulta</h3>
+            <p>Atendimento para avaliar a saúde do seu pet.</p>
+        </div>
+
+        <div class="card">
+            <h3>Vacinação</h3>
+            <p>Aplicação de vacinas para prevenção de doenças.</p>
+        </div>
+
+        <div class="card">
+            <h3>Banho e Tosa</h3>
+            <p>Cuidados de higiene para deixar seu pet limpo.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="agendamento">
+
+    <div class="info">
+        <h2>Agende um atendimento</h2>
+        <p>Preencha o formulário para solicitar um atendimento.</p>
+    </div>
+
+    <form>
+        <label>Nome do tutor</label>
+        <input type="text" placeholder="Digite seu nome">
+
+        <label>Nome do pet</label>
+        <input type="text" placeholder="Digite o nome do pet">
+
+        <label>Serviço desejado</label>
+        <select>
+            <option>Consulta</option>
+            <option>Vacinação</option>
+            <option>Banho e Tosa</option>
+        </select>
+
+        <label>Observações</label>
+        <textarea placeholder="Digite uma observação"></textarea>
+
+        <button type="submit">Enviar solicitação</button>
+    </form>
+
+</section>
+
+<footer>
+    <p>Pet Feliz. Página fictícia para estudo de HTML e CSS.</p>
+</footer>
+
+</body>
+</html>
